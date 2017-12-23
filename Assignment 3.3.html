@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+<title>Assignment 3.3</title>
+
+</head>
+
+<body>
+<div class="parent">
+<a onclick="myFunction()" class="parentlink">Parent</a>
+  <div id="children" class="child">
+    <a href="#Child1">Child1</a>
+    <a href="#Child2">Child2</a>
+    <a href="#Child3">Child3</a>
+  </div>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("children").classList.toggle("show");
+}
+</script>
+</body>
+</html>
