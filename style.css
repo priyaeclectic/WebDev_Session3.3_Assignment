@@ -1,0 +1,35 @@
+.parentlink {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.parent {
+    position: relative;
+    display: inline-block;
+}
+
+.child {
+    display: none;
+    position: absolute;
+    background-color: pink;
+    letter-spacing: 2px;
+    min-width: 65px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.child a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+	display:block;
+}
